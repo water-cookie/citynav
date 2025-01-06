@@ -110,9 +110,12 @@ sh scripts/download_data.sh
 ```
 
 Download [SensatUrban dataset](https://github.com/QingyongHu/SensatUrban?tab=readme-ov-file#4-training-and-evaluation)
-and rasterize the pointclouds using [CloudCompare](https://www.danielgm.net/cc/) with the grid step size set to `0.1` and the projection direction set to `z`.
-Save the RGB data as a `.png` file by setting the active layer to `RGB` and exporting the data with the `Image` button.
-The depth image can be saved in the same by setting the active layer to `Height grid values` and exporting it as a `.tiff` file with the `Raster` button.
+and run the following script to rasterize the pointclouds.
+
+```bash
+sh scripts/rasterize.sh path_to_ply_dir/train
+sh scripts/rasterize.sh path_to_ply_dir/test
+```
 
 The dataset and images should be placed in the directories presented below.
 
