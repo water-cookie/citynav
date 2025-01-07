@@ -12,7 +12,7 @@ OBJECTS_PATH = CITYREFER_DATA_DIR/"objects.json"
 PROCESSED_DECRIPTIONS_PATH = CITYREFER_DATA_DIR/"processed_descriptions.json"
 MTURK_TRAJECTORY_DIR = PROJECT_ROOT/"data/citynav"
 
-ORTHO_IMAGE_DIR = PROJECT_ROOT/"data/rgbd/ortho_projection_images"
+ORTHO_IMAGE_DIR = PROJECT_ROOT/"data/rgbd"
 SUBBLOCKS_DIR = PROJECT_ROOT/"data/subblocks"
 
 # SoM
